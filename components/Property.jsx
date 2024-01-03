@@ -37,6 +37,7 @@ const Property = ({
           width={400}
           height={260}
           alt="house"
+          style={{ borderRadius: "10px" }} 
         />
       </Box>
       <Box w="full">
