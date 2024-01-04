@@ -15,6 +15,7 @@ import Image from "next/image";
 
 import { filterData, getFilterValues } from "../utils/filterData";
 import noresult from '../assets/images/noresult.svg';
+import { baseUrl } from "../utils/fetchApi";
 
 const SearchFilters = () => {
   const [filters] = useState(filterData);
