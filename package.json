@@ -1,12 +1,9 @@
 {
-  "name": "real-estate-app",
+  "name": "realtor",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "20.10.0"
-  },
   "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
