@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Realtor - Real Estate App
+Welcome to Realtor, a powerful real estate app built for professionals in the business. This application provides a seamless experience for showcasing real estate listings in a visually appealing and user-friendly manner.
 
-## Getting Started
+# Features
+Responsive Design: The app is designed to work smoothly across various devices, ensuring a great user experience on both desktop and mobile.
 
-First, run the development server:
+Chakra UI Integration: Leveraging the Chakra UI library for React, Realtor offers a clean and modern user interface with customizable components.
 
-```bash
+Smooth Transitions: Framer Motion is utilized to incorporate smooth animations and transitions, enhancing the overall look and feel of the application.
+
+Data Fetching with Axios: Realtor efficiently fetches real estate data using Axios, ensuring quick and reliable communication with the server.
+
+Horizontal Image Scrolling: A unique feature allows users to scroll through real estate images horizontally, providing an engaging visual experience.
+
+Custom Icons: Integrating React Icons, the app uses custom icons to enhance the visual appeal and navigation elements.
+
+# Tech Stack
+Next.js: A React framework that enables server-side rendering and other performance optimizations.
+
+Chakra UI: A simple, modular, and accessible component library for React applications.
+
+Framer Motion: A library for creating smooth animations and gestures in React applications.
+
+Axios: A promise-based HTTP client for making requests to the server.
+
+React Icons: A collection of customizable icons for React applications.
+
+# Getting Started
+Follow these steps to set up and run the Realtor app locally:
+
+# Clone the Repository:
+
+bash
+Copy code
+git clone <repository-url>
+cd realtor
+Install Dependencies:
+
+bash
+Copy code
+npm install
+Run in Development Mode:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-```
+Build for Production:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+bash
+Copy code
+npm run build
+Start Production Server:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+bash
+Copy code
+npm start
+Linting:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+bash
+Copy code
+npm run lint
+Note
+This application is a showcase of my skills and attention to detail in building real-world web applications. Feel free to explore, and if you have any questions or feedback, don't hesitate to reach out.
+make sure to use node v16.14.2. to make it work properly. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Happy exploring!
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Luiz Gustavo Ferreira
